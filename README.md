@@ -1,6 +1,7 @@
-[FLUTTER__BADGE]: (https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-[DART__BADGE]: (https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
-[PROJECT__URL]: (https://github.com/ViniciusFaria-png/berserk-app-flutter)
+[FLUTTER__BADGE]: https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white
+[DART__BADGE]: https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white
+[PROJECT__URL]: https://github.com/ViniciusFaria-png/berserk-app-flutter
+[PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
 
 <h1 align="center" style="font-weight: bold;">Berserk App 💻</h1>
 
@@ -10,14 +11,13 @@
 <p align="center">
  <a href="#about">About</a> • 
  <a href="#started">Getting Started</a> • 
-  <a href="#started">App Routes</a> • 
   <a href="#colab">Collaborators</a> •
  <a href="#contribute">Contribute</a>
 </p>
 
 
 <p align="center">
-    <img src="D:\repos\DIO\Flutter\appdio\lib\assets\images\berserkapp.png" alt="Image Example" width="400px">
+    <img src="berserkapp.png" alt="Image Example" width="400px">
 </p>
 
 <h2 id="started">📌 About</h2>
@@ -57,27 +57,16 @@ flutter pub get
 flutter run
 ```
 
-<h2 id="routes">📍 Application Routes</h2>
 
-Here you can list the main routes of your API, and what are their expected request bodies.
-​
-| route               | description                                          
-|----------------------|-----------------------------------------------------
-| <kbd>/authenticate</kbd>     | page that list all user info
-| <kbd>/login</kbd>     | page to login
-| <kbd>/dashboard</kbd>     | page that contains all user shopping and spences info
 
 <h2 id="colab">🤝 Collaborators</h2>
-
-Special thank you for all people that contributed for this project.
-
 <table>
   <tr>
     <td align="center">
       <a href="#">
         <img src="https://avatars.githubusercontent.com/u/64180986?v=4" width="100px;" alt="Vinícius Faria Profile Picture"/><br>
         <sub>
-          <b>Fernanda Kipper</b>
+          <b>Vinícius Faria</b>
         </sub>
       </a>
     </td>
@@ -85,8 +74,6 @@ Special thank you for all people that contributed for this project.
 </table>
 
 <h2 id="contribute">📫 Contribute</h2>
-
-Here you will explain how other developers can contribute to your project. For example, explaining how can create their branches, which patterns to follow and how to open an pull request
 
 1. `git clone https://github.com/Fernanda-Kipper/text-editor.git`
 2. `git checkout -b feature/NAME`
