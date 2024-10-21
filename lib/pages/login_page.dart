@@ -1,3 +1,4 @@
+import 'package:appdio/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -135,7 +136,9 @@ class _LoginPageState extends State<LoginPage> {
                       TextButton(
                         onPressed: () {
                           if(email.text.trim() == "email" && senha.text.trim() == "123456") {
+                            Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=> const HomePage()));
                             ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Login efetuado com sucesso")));
+                            
                           } else {
                             ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Erro ao efetuar login")));
                           }
