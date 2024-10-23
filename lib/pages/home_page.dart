@@ -62,34 +62,45 @@ class _HomePageState extends State<HomePage> {
         // style: GoogleFonts.acme(),
         ), 
         backgroundColor: Colors.red,),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Center(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Text(numberCounter.toString(), 
-                style: GoogleFonts.acme(fontSize: 50),
-                ),
-                Text("Behelits coletados", 
-                style: GoogleFonts.acme(fontSize: 50),
-                ),
-                GestureDetector(
-                  onTap: (){
-                    setState(() {
-                      numberCounter = NumIncrementer.incrementNumber(numberCounter);
-                    });
-                  },
-                  child: Image.asset('lib/assets/images/Behelito.png', width: 300, height: 300,),
-                )
-                
-              ],
-            )
-            // child:  Text(number.toString()),
-            // child: Image.asset('lib/assets/images/Behelito.png', width: 300, height: 300,),
+      body: Container(
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('lib/assets/images/bg2.png'), // Caminho da sua imagem de fundo
+            fit: BoxFit.cover, // Ajusta a imagem para cobrir todo o fundo
           ),
-        ],
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Center(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                    numberCounter.toString(),
+                    style: GoogleFonts.acme(fontSize: 50, color: Colors.white),
+                  ),
+                  Text(
+                    "Behelits coletados",
+                    style: GoogleFonts.acme(fontSize: 50, color: Colors.white),
+                  ),
+                  GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        numberCounter = NumIncrementer.incrementNumber(numberCounter);
+                      });
+                    },
+                    child: Image.asset(
+                      'lib/assets/images/Behelito.png',
+                      width: 300,
+                      height: 300,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
