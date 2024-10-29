@@ -11,8 +11,8 @@ class Upgrades extends StatelessWidget {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('lib/assets/images/bg2.png'), // Caminho da sua imagem de fundo
-            fit: BoxFit.cover, // Ajusta a imagem para cobrir todo o fundo
+            image: AssetImage('lib/assets/images/bg2.png'),
+            fit: BoxFit.cover,
           ),
         ),
         child: Center(
